@@ -1,0 +1,210 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there",
+        "Hello",
+        "Good day",
+        "Good morning",
+        "howdy",
+        "whats up",
+        "yo",
+        "hello there"
+      ],
+      "responses": [
+        "Hey Sir",
+        "Hello Sir",
+        "Hi Sir, what can I do for you?",
+        "Hi Sir, how can I help?",
+        "Welcome back Sir"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later Sir",
+        "Have a nice day Sir",
+        "Goodbye Sir"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "calc",
+      "patterns": [
+        "start the calculator",
+        "can you calculate something",
+        "can you preform some calculations"
+      ],
+      "responses": [
+        "Yes Sir",
+        "Sure Sir"
+      ]
+    },
+    {
+      "tag": "google_search",
+      "patterns": [
+        "Preform an google search on ",
+        "Preform an search on ",
+        "Search for ",
+        "Search "
+      ],
+      "responses": [
+        "..."
+      ]
+    },
+    {
+      "tag": "youtube_search",
+      "patterns": [
+        "Can you play a video on youtube ",
+        "Play on youtube ",
+        "Play "
+      ],
+      "responses": [
+        "Ok Sir",
+        "Sure Sir"
+      ]
+    },
+    {
+      "tag": "news",
+      "patterns": [
+        "tell me the news",
+        "whats the news",
+        "tell me todays news"
+      ],
+      "responses": [
+        "."
+      ]
+    },
+    {
+      "tag": "opinion",
+      "patterns": [
+        "whats your opinion on ",
+        "what do you think of "
+      ],
+      "responses": [
+        "....."
+      ]
+    },
+    {
+      "tag": "this_or_that",
+      "patterns": [
+        "do you like ",
+        "whats better ",
+        " or "
+      ],
+      "responses": [
+        "....."
+      ]
+    },
+    {
+      "tag": "ip_location",
+      "patterns": [
+        "where are we",
+        "where am i",
+        "in which country are we"
+      ],
+      "responses": [
+        "....."
+      ]
+    },
+    {
+      "tag": "find_place",
+      "patterns": [
+        "search for an place",
+        "search for an location",
+        "search on google maps"
+      ],
+      "responses": [
+        "....."
+      ]
+    },
+    {
+      "tag": "download_vid",
+      "patterns": [
+        "can you download an video",
+        "download an youtube video",
+        "download an video"
+      ],
+      "responses": [
+        "....."
+      ]
+    },
+    {
+      "tag": "wiki_search",
+      "patterns": [
+        "can you search something on wikipedia",
+        "search on wikipedia",
+        "wikipedia search"
+      ],
+      "responses": [
+        "....."
+      ]
+    },
+    {
+      "tag": "googleimage_search",
+      "patterns": [
+        "search for an image on google",
+        "search for an google image",
+        "google images search"
+      ],
+      "responses": [
+        "....."
+      ]
+    },
+    {
+      "tag": "alarm",
+      "patterns": [
+        "set a alarm",
+        "can you set a alarm",
+        "start a alarm"
+      ],
+      "responses": [
+        "....."
+      ]
+    },
+    {
+      "tag": "temp",
+      "patterns": [
+        "what is the weather",
+        "what temperature is it",
+        "what type of weather is it"
+      ],
+      "responses": [
+        "....."
+      ]
+    },
+    {
+      "tag": "find_file",
+      "patterns": [
+        "can you find a file",
+        "do a search for a file",
+        "search for a file"
+      ],
+      "responses": [
+        "....."
+      ]
+    }
+  ]
+}
